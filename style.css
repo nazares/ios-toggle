@@ -1,3 +1,23 @@
+html,
+body {
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .ios-switch {
     display: flex;
     flex-direction: row;
@@ -26,7 +46,7 @@
 }
 
 .ios-switch.active .switch-body {
-    background-color:#51D88A;
+    background-color: #51d88a;
 }
 
 .ios-switch.active .switch-body .toggle {
@@ -40,7 +60,6 @@
     font-family: sans-serif;
 }
 
-.ios-switch input[type=checkbox] {
-    display:none;
+.ios-switch input[type="checkbox"] {
+    display: none;
 }
-
